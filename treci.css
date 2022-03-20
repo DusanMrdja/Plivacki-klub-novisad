@@ -1,0 +1,150 @@
+html,body{
+margin: 0;
+padding:0;
+background: url("bazen.jpg") center fixed;
+}
+.meni {
+  background:black fixed top;
+}
+@media screen and (max-width: 600px)
+{
+	.meni a
+	{
+		text-align: center;
+		width: 100%;
+		float: none;
+		display: block;
+	}
+}
+.meni a {
+  float: right;
+  display: block;
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.meni a:hover {
+  background: #66e0ff;
+  color: blue;
+}
+@keyframes ikonica
+{
+	from{ right: 100px;top: 100px; }
+	to{right:0%;top: 0%}
+}
+@-webkit-keyframes ikonica
+{
+	from{right: 25%;top: 25%}
+	to{right: 0%;top: 0%}
+}
+img
+{
+	width: 50px;
+	height: 35px;
+	margin: 5px;
+}
+img.ikona
+{
+	position: relative;
+	animation-name: ikonica;
+	animation-duration: 4s;
+}
+@font-face{
+
+	font-family: Retrochips;
+	src: url('Retrochips.otf');
+	}
+.text{
+	font-family: Retrochips;
+	color: black;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	font-size: 50px;
+	-moz-text-shadow:10px 10px 10px 10px white;
+	text-shadow:10px 10px 10px white;
+}
+@media screen and (max-width: 600px)
+{
+	.text
+	{
+		font-size: 30px;
+		width: 100%;
+		float: none;
+		display: block;
+	}
+}
+.divajder{
+	background: rgb(255, 255, 255, 0.3);
+	height:1400px;
+	width: 500px;
+	text-align: center;
+	font-weight: bold;
+    font-size: 35px;
+	margin-bottom: 100px;
+    margin-left: 380px;
+}
+@media screen and (max-width: 600px)
+{
+	.divajder
+	{
+		font-size: 20px;
+		width: 60%;
+		margin-left: 80px;
+		text-align: center;
+		float: none;
+		display: block;
+	}
+}
+.form
+{
+	text-align: center;
+	font-weight: bold;
+	background: silver;
+}
+.pozicija
+{
+	margin: 20px;
+	padding: 20px;
+}
+
+.posalji
+{
+	background: green;
+}
+
+.obrisi
+{
+	background: red;
+}
+.mapa{
+	margin-left: 180px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+@media screen and (max-width: 600px)
+{
+	.mapa
+	{
+		width: 100%;
+		float: none;
+		display: none;
+	}
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+}
+.fb-root{
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.fb-like{
+    margin-left: 600px;
+    margin-top: 15px;
+}

@@ -1,0 +1,142 @@
+html,body{
+margin: 0;
+padding:0;
+background: url("bazen.jpg") center fixed;
+}
+.meni {
+  background:black fixed top;
+}
+@media screen and (max-width: 600px)
+{
+	.meni a
+	{
+		text-align: center;
+		width: 100%;
+		float: none;
+		display: block;
+	}
+}
+.meni a {
+  float: right;
+  display: block;
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.meni a:hover {
+  background: #66e0ff;
+  color: blue;
+}
+@keyframes ikonica
+{
+	from{ right: 100px;top: 100px; }
+	to{right:0%;top: 0%}
+}
+@-webkit-keyframes ikonica
+{
+	from{right: 25%;top: 25%}
+	to{right: 0%;top: 0%}
+}
+img
+{
+	width: 50px;
+	height: 35px;
+	margin: 0px;
+}
+img.ikona
+{
+	position: relative;
+	animation-name: ikonica;
+	animation-duration: 4s;
+}
+@font-face
+{
+	font-family: varsity;
+	src: url('varsity_regular.ttf');
+}
+.naslov{
+	font-family: varsity;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 40px;
+	-moz-text-shadow:10px 10px 10px 10px white;
+	text-shadow:10px 10px 10px white;
+    margin-top: 220px;
+    margin-bottom: 220px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+@media screen and (max-width: 600px)
+{
+	.naslov
+	{
+		font-size: 30px;
+		width: 100%;
+		float: none;
+		display: block;
+	}
+}
+.sekcija{
+	height: 600px;
+	width: 1000px;
+	background:rgb(255, 255, 255, 0.3);
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px)
+{
+	.sekcija
+	{
+		font-size: 40px;
+		width: 60%;
+		float: none;
+		display: block;
+        margin-top: 20px;
+	}
+}
+@font-face{
+	font-family: Old Newspaper Types;
+	src:url('OldNewspaperTypes.ttf');
+}
+.sekcija1{
+	font-family: Old Newspaper Types;
+	color: black;
+	text-align: justify;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.slika{
+	height:350px;
+	width: 400px;
+	float: center;
+	border-radius: 25px;
+}
+@media screen and (max-width: 600px)
+{
+	.slika
+	{
+		width: 100%;
+		float: none;
+		display: none;
+	}
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+}
+.fb-root{
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.fb-like{
+    margin-left: 600px;
+    margin-top: 15px;
+}
